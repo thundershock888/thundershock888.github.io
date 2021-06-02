@@ -1,0 +1,93 @@
+.bluearea {
+
+    border-style: solid;
+    border-color: rgb(188, 207, 205);
+    background-color: rgb(216, 237, 235);
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.redboldtext {
+    font-weight: bold;
+    color: #B01302;
+    font-size: 1.35em;
+}
+
+.tableoutline {
+    border-collapse: collapse;
+    border-color: rgb(185, 185, 185);
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 500px;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.tableoutline thead tr {
+    font-width: bold;
+    border-bottom: 2px solid rgb(185, 185, 185);
+    background-color: rgb(215, 215, 215);
+    text-align: left;
+}
+
+.tableoutline td {
+    padding: 10px 12px;
+}
+
+.tableoutline tbody tr {
+    border-bottom: 2px solid rgb(185, 185, 185);
+}
+
+table {
+    width: 700px
+}
+
+th {
+    text-align: left;
+    background-color: rgb(220, 220, 220);
+
+}
+
+table, th, td {
+    border: 2px solid rgb(185, 185, 185);
+    border-collapse: collapse;
+
+}
+
+tbody, td {
+    width: 170px;
+    height: 60px;
+    padding: 10px 5px;
+}
+
+input {
+    width: 40%;
+    height: 50%;
+}
+
+.redbutton {
+    border-color: #B01302;
+    border-radius: 4px;
+    position: relative;
+
+    left: 360px;
+    width: 115px;
+    height: 35px;
+    text-align: center;
+    background-color: #B01302;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: white;
+}
+
+.goalselect {
+
+    width: 5%;
+    height: 60%;
+}
+
+.bigtext {
+    font-size: 1.75em;
+}

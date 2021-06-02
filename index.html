@@ -1,0 +1,93 @@
+<!-- The "Bonus Feature" of my assignment is allowing the user to see what grade is needed for a weighted score in a fifth activity.
+Give the fifth activity a Weight, and then input a desired overall, weighted average grade, and then the "GOAL" button is clicked, the program will calculate the required score on the 5th activity to achieve
+the desired score.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width+device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+    <script src="calculator.js" defer></script>
+    <style>
+    </style>
+</head>
+
+<body>
+<p class="bigtext"> Grade Calculator</p>
+
+<main class="bluearea">
+    <p class="redboldtext">Activities
+    </p>
+    <p>
+        Give grades to the numeric activities
+    </p>
+    <table>
+        <thead>
+        <tr>
+
+            <th>Name</th>
+            <th>Short Name</th>
+            <th>Weight</th>
+            <th>Grade</th>
+            <th>Percent</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Activity 1</td>
+            <td>A1</td>
+            <td><input id="t1" type="text">
+            <td><input id="t2" type="text">/<br>
+                <input id="t3" type="text"></td>
+            <td id="t4"></td>
+        </tr>
+        <tr>
+            <td>Activity 2</td>
+            <td>A2</td>
+            <td><input id="t11" type="text"></td>
+            <td><input id="t12" type="text">/<br>
+                <input id="t13" type="text"></td>
+            <td id="t14"></td>
+        </tr>
+        <tr>
+            <td>Activity 3</td>
+            <td>A3</td>
+            <td><input id="t21" type="text"></td>
+            <td><input id="t22" type="text">/<br>
+                <input id="t23" type="text"></td>
+            <td id="t24"></td>
+        </tr>
+        <tr>
+            <td>Activity 4</td>
+            <td>A4</td>
+            <td><input id="t31" type="text"></td>
+            <td><input id="t32" type="text">/<br>
+                <input id="t33" type="text"></td>
+            <td id="t34"></td>
+        </tr>
+
+        </tbody>
+
+
+    </table>
+    <p class="redboldtext">Result
+    </p>
+    <p id="result">
+        <br>
+    </p>
+    <p class="redboldtext">Goal Grade Weight: <input class="goalselect" id="test1" type="text"></p>
+
+    <p class="redboldtext">Goal Grade Score: <input class="goalselect" id="test2" type="text"></p>
+
+    <p class="redboldtext"> Activity Grade Needed: </p>
+    <p id="goalresult"></p>
+    <button onclick="gs()" class="redbutton" id="wieghted">GOAL</button>
+    <button onclick="ws()" class="redbutton" id="wieghted">WEIGHTED</button>
+    <button onclick="ms()" class="redbutton" id="mean">MEAN</button>
+</main>
+</body>
+
+</html>
